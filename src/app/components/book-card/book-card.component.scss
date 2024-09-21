@@ -1,0 +1,18 @@
+.card {
+    @apply rounded shadow-lg text-white overflow-hidden;
+    background-color: #393939;
+}
+
+.description {
+    @apply p-4;
+}
+
+.tags {
+    ul {
+        display: inline-flex;
+
+        li {
+            @apply rounded-full bg-gray-200 text-gray-700  px-3 py-1 text-sm mr-2;
+        }
+    }
+}

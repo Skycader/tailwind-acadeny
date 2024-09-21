@@ -1,3 +1,7 @@
 .navbar {
     @apply flex items-center p-3 text-white h-16 bg-indigo-800 shadow-sm;
 }
+
+.header-link {
+    @apply px-2 font-semibold;
+}
